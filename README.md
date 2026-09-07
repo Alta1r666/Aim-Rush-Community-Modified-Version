@@ -1,6 +1,6 @@
 # Aim Rush - Community Modified Version
 
-> A community-modified version of the classic CS2 warm-up and aim training map **Aim Rush**.
+> A community-modified version of the classic CS2 warm-up and aim training map **Aim Rush**, originally created by **JoeyyBiden**.
 
 ---
 
@@ -11,9 +11,7 @@
 - [Project Overview](#en-overview)
 - [How to Use](#en-usage)
 - [Version Information](#en-version)
-- [Basic Controls](#en-controls)
-- [Weapon Selection](#en-weapons)
-- [Knives & Utilities](#en-knives)
+- [Usage Instructions](#en-instructions)
 - [Preset Configurations](#en-presets)
 - [Bot Logic](#en-bots)
 - [Enhanced Bot Utility Reactions](#en-utility-reactions)
@@ -24,9 +22,7 @@
 - [项目概览](#zh-overview)
 - [使用方法](#zh-usage)
 - [版本提示](#zh-version)
-- [基本使用说明](#zh-controls)
-- [枪械选择](#zh-weapons)
-- [匕首与道具](#zh-knives)
+- [使用说明](#zh-instructions)
 - [预设配置](#zh-presets)
 - [Bot 逻辑说明](#zh-bots)
 - [Enhanced Bot 对道具的反应](#zh-utility-reactions)
@@ -83,42 +79,26 @@ If the map has not been updated:
 
 ---
 
-<a id="en-controls"></a>
+<a id="en-instructions"></a>
 
-## Basic Controls
+## Usage Instructions
+
+### Basic Controls
 
 - All interactive objects can be activated using the **Use / Interact key**.
 - Most interactive objects can also be triggered by **dealing damage to them**.
 
----
+![Arena Controls](images/arena_controls_annotated_en.png)
 
-<a id="en-weapons"></a>
+### Weapon Selection
 
-## Weapon Selection
-
-<!-- Insert the weapon selection image here.
-
-Example:
-
-![Available Weapons](images/weapons.jpg)
-
--->
+![Available Weapons](images/annotated.png)
 
 > The image above shows all currently available weapons.
 
----
+### Knives & Utilities
 
-<a id="en-knives"></a>
-
-## Knives & Utilities
-
-<!-- Insert the knives and utilities image here.
-
-Example:
-
-![Knives and Utilities](images/knives-utilities.jpg)
-
--->
+![Knives and Utilities](images/item_mode_annotated_en.png)
 
 > The image above shows all currently available knife and utility replacements.
 
@@ -167,6 +147,8 @@ This saves the current configuration to **Config 2**.
 The **Target Tracking** setting only affects the three **Enhanced Bot** modes.
 
 The map currently provides **Bot Original** and **three Enhanced Bot modes**.
+
+![Bot Settings](images/bot_settings_all_en.png)
 
 ### Bot Original
 
@@ -272,42 +254,26 @@ Steam 创意工坊有时不会自动更新地图。
 
 ---
 
-<a id="zh-controls"></a>
+<a id="zh-instructions"></a>
 
-## 基本使用说明
+## 使用说明
+
+### 基本操作
 
 - 所有可互动物品均可以通过 **交互键** 使用。
 - 大部分可互动物品也可以通过 **造成伤害** 来触发。
 
----
+![场景控制说明](images/arena_controls_annotated.png)
 
-<a id="zh-weapons"></a>
+### 枪械选择
 
-## 枪械选择
-
-<!-- 在这里插入枪械区域截图。
-
-例如：
-
-![全部可用枪械](images/weapons.jpg)
-
--->
+![全部可用枪械](images/annotated.png)
 
 > 上图为当前版本全部可用枪械。
 
----
+### 匕首与道具
 
-<a id="zh-knives"></a>
-
-## 匕首与道具
-
-<!-- 在这里插入匕首与道具区域截图。
-
-例如：
-
-![全部匕首与道具](images/knives-utilities.jpg)
-
--->
+![全部匕首与道具](images/item_mode_annotated_zh.png)
 
 > 上图为当前版本全部可替换的匕首和道具。
 
@@ -356,6 +322,8 @@ aimrush_save_config 2
 **是否追踪**只影响 3 种 **Enhanced Bot**。
 
 目前地图提供 **Bot Original** 和 **3 种 Enhanced Bot**。
+
+![Bot 设置](images/bot_settings_all_zh.png)
 
 ### Bot Original
 
