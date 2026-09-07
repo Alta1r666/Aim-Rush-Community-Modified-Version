@@ -1,10 +1,8 @@
 # Aim Rush - Community Modified Version
 
-> A community-modified version of the classic CS2 warm-up and aim training map **Aim Rush**, originally created by **JoeyyBiden**.
+> A community-modified version of the classic CS2 warm-up and aim training map **Aim Rush**.
 
 ---
-
-<a id="table-of-contents"></a>
 
 ## Table of Contents / 目录
 
@@ -42,9 +40,7 @@
 
 ## Project Overview
 
-This project is a CS2 Workshop map based on the classic **Aim Rush** map created by **JoeyyBiden**.
-
-It builds upon the original map with additional weapons, knives, utilities, preset configurations, Bot behavior options, and various bug fixes and gameplay improvements.
+This project is a CS2 Workshop map modified from the classic **Aim Rush** map created by **JoeyyBiden**.
 
 ---
 
@@ -56,9 +52,9 @@ Search for the following map in the CS2 Steam Workshop:
 
 **Aim Rush - Community Modified Version**
 
-Subscribe to the map and launch the international version of CS2. The map will then be available in your Workshop maps.
+Subscribe to the map and launch CS2. The map will then be available in your Workshop maps.
 
-- **Steam Workshop:**  
+- **Steam Workshop Page:**  
   https://steamcommunity.com/sharedfiles/filedetails/?id=3779660631
 
 - **Workshop ID:**  
@@ -72,14 +68,13 @@ Subscribe to the map and launch the international version of CS2. The map will t
 
 When the map is loaded, the current version number will be displayed in the in-game text panel.
 
-> [!IMPORTANT]
-> If the displayed version is lower than **v2.2.0**, or no version number is shown, please update the map to ensure the best experience.
+If the displayed version is lower than **v2.2.0**, or no version number is shown, please update the map to ensure the best experience.
 
 ### How to Force a Workshop Update
 
 Steam Workshop may not always update the map automatically.
 
-If your map is not updating:
+If the map has not been updated:
 
 1. Unsubscribe from the map.
 2. Subscribe to it again.
@@ -146,7 +141,7 @@ The map includes four default presets:
 
 ### Saving Custom Presets
 
-After adjusting your current settings, use one of the following console commands to overwrite the corresponding preset:
+After adjusting your current settings, use one of the following console commands to save the current configuration to the corresponding preset slot:
 
 ```text
 aimrush_save_config 1
@@ -161,7 +156,7 @@ For example:
 aimrush_save_config 2
 ```
 
-This saves your current configuration to **Config 2**.
+This saves the current configuration to **Config 2**.
 
 ---
 
@@ -169,23 +164,25 @@ This saves your current configuration to **Config 2**.
 
 ## Bot Logic
 
+The **Target Tracking** setting only affects the three **Enhanced Bot** modes.
+
 The map currently provides **Bot Original** and **three Enhanced Bot modes**.
 
 ### Bot Original
 
-**Bot Original** uses the original Aim Rush Bot logic and relies directly on the highest-difficulty Bots available in CS2.
+**Bot Original** uses the original Aim Rush Bot logic and directly uses the highest-difficulty Bots available in CS2.
 
-Because some navigation issues appeared during the map decompilation process, Original Bots may occasionally show unusual movement behavior.
+Due to some navigation issues introduced during the map decompilation process, Original Bots may occasionally show unusual movement behavior in certain areas.
 
-Possible issues include:
+For example:
 
 - Unusual movement paths
-- Strange movement behavior
-- Navigation problems in certain areas
+- Unnatural movement behavior
+- Navigation issues in certain areas
 
 ### Enhanced Bot
 
-The map includes **three Enhanced Bot modes**.
+The map currently provides **three Enhanced Bot modes**.
 
 All three Enhanced Bot modes use external scripts.
 
@@ -196,7 +193,7 @@ Current shared settings:
 - **Core behavior logic:** The same across all three modes
 - **Main differences:** Attack-related parameters
 
-The three Enhanced Bot modes therefore use the same basic behavior logic, while different attack parameters are used to create different difficulty levels.
+Therefore, all three Enhanced Bot modes use the same core behavior logic, with different attack parameters used to create different difficulty levels.
 
 ---
 
@@ -219,9 +216,7 @@ The three Enhanced Bot modes therefore use the same basic behavior logic, while 
 
 Special thanks to **JoeyyBiden** for creating **Aim Rush**, an excellent warm-up and aim training map.
 
-The Bot logic modifications in this project were heavily inspired by the open-source project **CS2-Bot-Improver**.
-
-Special thanks to its developer and contributors.
+The Bot logic modifications in this version were heavily inspired by the open-source project **CS2-Bot-Improver**. Special thanks to its developer and contributors.
 
 - **CS2-Bot-Improver:**  
   https://github.com/ed0ard/CS2-Bot-Improver
@@ -235,8 +230,6 @@ Special thanks to its developer and contributors.
 ## 项目概览
 
 本项目是基于 **JoeyyBiden** 制作的经典地图 **Aim Rush** 修改而来的 CS2 创意工坊地图。
-
-修改版在原地图基础上增加了更多枪械、匕首、道具、预设配置、Bot 行为选项，同时修复并优化了部分影响游戏体验的问题。
 
 ---
 
@@ -264,8 +257,7 @@ Special thanks to its developer and contributors.
 
 打开地图时，游戏内的文本提示区域会显示当前版本号。
 
-> [!IMPORTANT]
-> 如果显示的版本低于 **v2.2.0**，或没有出现版本提示，请更新地图以获得最佳体验。
+如果显示的版本低于 **v2.2.0**，或没有出现版本提示，请更新地图以获得最佳体验。
 
 ### 强制更新地图的方法
 
@@ -360,6 +352,8 @@ aimrush_save_config 2
 <a id="zh-bots"></a>
 
 ## Bot 逻辑说明
+
+**是否追踪**只影响 3 种 **Enhanced Bot**。
 
 目前地图提供 **Bot Original** 和 **3 种 Enhanced Bot**。
 
