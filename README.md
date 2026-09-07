@@ -20,7 +20,6 @@
 - [Bot Logic](#en-bots)
 - [Enhanced Bot Utility Reactions](#en-utility-reactions)
 - [Credits](#en-credits)
-- [Related Links](#en-links)
 
 ### 中文
 
@@ -34,7 +33,6 @@
 - [Bot 逻辑说明](#zh-bots)
 - [Enhanced Bot 对道具的反应](#zh-utility-reactions)
 - [致谢](#zh-credits)
-- [相关链接](#zh-links)
 
 ---
 
@@ -47,8 +45,6 @@
 This project is a CS2 Workshop map based on the classic **Aim Rush** map created by **JoeyyBiden**.
 
 It builds upon the original map with additional weapons, knives, utilities, preset configurations, Bot behavior options, and various bug fixes and gameplay improvements.
-
-[Back to Table of Contents](#table-of-contents)
 
 ---
 
@@ -67,8 +63,6 @@ Subscribe to the map and launch the international version of CS2. The map will t
 
 - **Workshop ID:**  
   `3779660631`
-
-[Back to Table of Contents](#table-of-contents)
 
 ---
 
@@ -92,8 +86,6 @@ If your map is not updating:
 3. If CS2 starts downloading Workshop files, the map update has been triggered.
 4. Enter the map again and check the displayed version number.
 
-[Back to Table of Contents](#table-of-contents)
-
 ---
 
 <a id="en-controls"></a>
@@ -102,8 +94,6 @@ If your map is not updating:
 
 - All interactive objects can be activated using the **Use / Interact key**.
 - Most interactive objects can also be triggered by **dealing damage to them**.
-
-[Back to Table of Contents](#table-of-contents)
 
 ---
 
@@ -121,8 +111,6 @@ Example:
 
 > The image above shows all currently available weapons.
 
-[Back to Table of Contents](#table-of-contents)
-
 ---
 
 <a id="en-knives"></a>
@@ -138,8 +126,6 @@ Example:
 -->
 
 > The image above shows all currently available knife and utility replacements.
-
-[Back to Table of Contents](#table-of-contents)
 
 ---
 
@@ -177,8 +163,6 @@ aimrush_save_config 2
 
 This saves your current configuration to **Config 2**.
 
-[Back to Table of Contents](#table-of-contents)
-
 ---
 
 <a id="en-bots"></a>
@@ -199,8 +183,6 @@ Possible issues include:
 - Strange movement behavior
 - Navigation problems in certain areas
 
----
-
 ### Enhanced Bot
 
 The map includes **three Enhanced Bot modes**.
@@ -216,8 +198,6 @@ Current shared settings:
 
 The three Enhanced Bot modes therefore use the same basic behavior logic, while different attack parameters are used to create different difficulty levels.
 
-[Back to Table of Contents](#table-of-contents)
-
 ---
 
 <a id="en-utility-reactions"></a>
@@ -230,8 +210,6 @@ The three Enhanced Bot modes therefore use the same basic behavior logic, while 
 | **Molotov / Incendiary Grenade** | Bots detect nearby fire and perform limited avoidance behavior. However, shooting and other attack actions have higher priority than avoiding fire. |
 | **Smoke Grenade** | Bots treat smoke as cover / visual obstruction. |
 | **HE Grenade** | No special reaction is currently implemented. |
-
-[Back to Table of Contents](#table-of-contents)
 
 ---
 
@@ -248,22 +226,6 @@ Special thanks to its developer and contributors.
 - **CS2-Bot-Improver:**  
   https://github.com/ed0ard/CS2-Bot-Improver
 
-[Back to Table of Contents](#table-of-contents)
-
----
-
-<a id="en-links"></a>
-
-## Related Links
-
-- **Aim Rush - Community Modified Version**  
-  https://steamcommunity.com/sharedfiles/filedetails/?id=3779660631
-
-- **CS2-Bot-Improver**  
-  https://github.com/ed0ard/CS2-Bot-Improver
-
-[Back to Table of Contents](#table-of-contents)
-
 ---
 
 # 中文
@@ -275,8 +237,6 @@ Special thanks to its developer and contributors.
 本项目是基于 **JoeyyBiden** 制作的经典地图 **Aim Rush** 修改而来的 CS2 创意工坊地图。
 
 修改版在原地图基础上增加了更多枪械、匕首、道具、预设配置、Bot 行为选项，同时修复并优化了部分影响游戏体验的问题。
-
-[返回目录](#table-of-contents)
 
 ---
 
@@ -295,8 +255,6 @@ Special thanks to its developer and contributors.
 
 - **创意工坊 ID：**  
   `3779660631`
-
-[返回目录](#table-of-contents)
 
 ---
 
@@ -320,8 +278,6 @@ Steam 创意工坊有时不会自动更新地图。
 3. 如果此时 CS2 触发创意工坊文件下载，则说明地图更新已经触发。
 4. 再次进入地图并检查版本号。
 
-[返回目录](#table-of-contents)
-
 ---
 
 <a id="zh-controls"></a>
@@ -330,8 +286,6 @@ Steam 创意工坊有时不会自动更新地图。
 
 - 所有可互动物品均可以通过 **交互键** 使用。
 - 大部分可互动物品也可以通过 **造成伤害** 来触发。
-
-[返回目录](#table-of-contents)
 
 ---
 
@@ -349,8 +303,6 @@ Steam 创意工坊有时不会自动更新地图。
 
 > 上图为当前版本全部可用枪械。
 
-[返回目录](#table-of-contents)
-
 ---
 
 <a id="zh-knives"></a>
@@ -366,8 +318,6 @@ Steam 创意工坊有时不会自动更新地图。
 -->
 
 > 上图为当前版本全部可替换的匕首和道具。
-
-[返回目录](#table-of-contents)
 
 ---
 
@@ -405,8 +355,6 @@ aimrush_save_config 2
 
 会将当前配置保存为 **配置 2**。
 
-[返回目录](#table-of-contents)
-
 ---
 
 <a id="zh-bots"></a>
@@ -427,8 +375,6 @@ aimrush_save_config 2
 - 运动行为不自然
 - 个别区域出现导航问题
 
----
-
 ### Enhanced Bot
 
 地图目前提供 **3 种 Enhanced Bot 模式**。
@@ -444,8 +390,6 @@ aimrush_save_config 2
 
 因此，三种 Enhanced Bot 本质上使用相同的行为逻辑，仅通过调整不同的攻击参数来形成不同难度。
 
-[返回目录](#table-of-contents)
-
 ---
 
 <a id="zh-utility-reactions"></a>
@@ -459,8 +403,6 @@ aimrush_save_config 2
 | **烟雾弹** | Bot 会将烟雾视为掩体 / 视野遮挡。 |
 | **HE 手雷** | 目前没有特殊反应。 |
 
-[返回目录](#table-of-contents)
-
 ---
 
 <a id="zh-credits"></a>
@@ -473,19 +415,3 @@ aimrush_save_config 2
 
 - **CS2-Bot-Improver：**  
   https://github.com/ed0ard/CS2-Bot-Improver
-
-[返回目录](#table-of-contents)
-
----
-
-<a id="zh-links"></a>
-
-## 相关链接
-
-- **Aim Rush - Community Modified Version**  
-  https://steamcommunity.com/sharedfiles/filedetails/?id=3779660631
-
-- **CS2-Bot-Improver**  
-  https://github.com/ed0ard/CS2-Bot-Improver
-
-[返回目录](#table-of-contents)
