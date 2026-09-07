@@ -90,11 +90,13 @@ If the map has not been updated:
 
 ![Arena Controls](images/arena_controls_annotated_en.png)
 
-### Weapon Selection
+### Weapons & Settings
 
 ![Available Weapons](images/annotated.png)
 
-> The image above shows all currently available weapons.
+![Bot Settings](images/bot_settings_all_en.png)
+
+> The images above show the currently available weapons and Bot-related settings.
 
 ### Knives & Utilities
 
@@ -147,8 +149,6 @@ This saves the current configuration to **Config 2**.
 The **Target Tracking** setting only affects the three **Enhanced Bot** modes.
 
 The map currently provides **Bot Original** and **three Enhanced Bot modes**.
-
-![Bot Settings](images/bot_settings_all_en.png)
 
 ### Bot Original
 
@@ -265,11 +265,13 @@ Steam 创意工坊有时不会自动更新地图。
 
 ![场景控制说明](images/arena_controls_annotated.png)
 
-### 枪械选择
+### 枪械与设置
 
 ![全部可用枪械](images/annotated.png)
 
-> 上图为当前版本全部可用枪械。
+![Bot 设置](images/bot_settings_all_zh.png)
+
+> 上图为当前版本全部可用枪械及 Bot 相关设置。
 
 ### 匕首与道具
 
@@ -322,8 +324,6 @@ aimrush_save_config 2
 **是否追踪**只影响 3 种 **Enhanced Bot**。
 
 目前地图提供 **Bot Original** 和 **3 种 Enhanced Bot**。
-
-![Bot 设置](images/bot_settings_all_zh.png)
 
 ### Bot Original
 
