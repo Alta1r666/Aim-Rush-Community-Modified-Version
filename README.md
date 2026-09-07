@@ -90,13 +90,13 @@ If the map has not been updated:
 
 ![Arena Controls](images/arena_controls_annotated_en.png)
 
-### Weapons & Settings
+![Bot Settings](images/bot_settings_all_en.png)
+
+### Weapon Selection
 
 ![Available Weapons](images/annotated.png)
 
-![Bot Settings](images/bot_settings_all_en.png)
-
-> The images above show the currently available weapons and Bot-related settings.
+> The image above shows all currently available weapons.
 
 ### Knives & Utilities
 
@@ -265,13 +265,13 @@ Steam 创意工坊有时不会自动更新地图。
 
 ![场景控制说明](images/arena_controls_annotated.png)
 
-### 枪械与设置
+![Bot 设置](images/bot_settings_all_zh.png)
+
+### 枪械选择
 
 ![全部可用枪械](images/annotated.png)
 
-![Bot 设置](images/bot_settings_all_zh.png)
-
-> 上图为当前版本全部可用枪械及 Bot 相关设置。
+> 上图为当前版本全部可用枪械。
 
 ### 匕首与道具
 
